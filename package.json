@@ -1,0 +1,55 @@
+{
+  "name": "cbj-exchange-rate",
+  "version": "1.2.6",
+  "description": "Official Central Bank of Jordan (Jordan) daily exchange rates — 5 currencies vs JOD, current table, archive from 2026. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "cbj",
+    "central",
+    "bank",
+    "of",
+    "jordan",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "jod",
+    "central-bank",
+    "official-rates",
+    "jordan",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/cbj/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/cbj-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/cbj-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
