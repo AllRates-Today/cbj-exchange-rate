@@ -40,18 +40,18 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 Today's full Central Bank of Jordan table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-11** by Central Bank of Jordan — 10 rates. Updated 2026-10-11.
+Published **2026-10-12** by Central Bank of Jordan — 10 rates. Updated 2026-10-12.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| CHF | JOD | buy | 0.85106 |
-| CHF | JOD | sell | 0.85583 |
-| EUR | JOD | buy | 0.79211 |
-| EUR | JOD | sell | 0.79825 |
-| GBP | JOD | buy | 0.93498 |
-| GBP | JOD | sell | 0.94075 |
-| JPY | JOD | buy | 0.0044689 |
-| JPY | JOD | sell | 0.0045005 |
+| CHF | JOD | buy | 0.84963 |
+| CHF | JOD | sell | 0.85697 |
+| EUR | JOD | buy | 0.79098 |
+| EUR | JOD | sell | 0.79641 |
+| GBP | JOD | buy | 0.93591 |
+| GBP | JOD | sell | 0.94153 |
+| JPY | JOD | buy | 0.0044632 |
+| JPY | JOD | sell | 0.004492 |
 | USD | JOD | buy | 0.708 |
 | USD | JOD | sell | 0.71 |
 
