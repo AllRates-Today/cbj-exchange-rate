@@ -42,18 +42,18 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-13** by Central Bank of Jordan — 10 rates. Updated 2026-10-13.
+Published **2026-10-14** by Central Bank of Jordan — 10 rates. Updated 2026-10-14.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| CHF | JOD | buy | 0.84811 |
-| CHF | JOD | sell | 0.85357 |
-| EUR | JOD | buy | 0.78956 |
-| EUR | JOD | sell | 0.79492 |
-| GBP | JOD | buy | 0.93463 |
-| GBP | JOD | sell | 0.94047 |
-| JPY | JOD | buy | 0.0044624 |
-| JPY | JOD | sell | 0.0044991 |
+| CHF | JOD | buy | 0.84912 |
+| CHF | JOD | sell | 0.85398 |
+| EUR | JOD | buy | 0.79204 |
+| EUR | JOD | sell | 0.79598 |
+| GBP | JOD | buy | 0.93768 |
+| GBP | JOD | sell | 0.94253 |
+| JPY | JOD | buy | 0.0044666 |
+| JPY | JOD | sell | 0.0044911 |
 | USD | JOD | buy | 0.708 |
 | USD | JOD | sell | 0.71 |
 
@@ -112,7 +112,7 @@ const pair = await getRate('USD', 'JOD', { apiKey: 'art_live_...' });
 {
   bank: 'cbj',
   name: 'Central Bank of Jordan',
-  rate_date: '2026-10-12',   // Central Bank of Jordan's own publication date
+  rate_date: '2026-10-13',   // Central Bank of Jordan's own publication date
   source: 'USD',
   target: 'JOD',
   rate: 0.71,
@@ -140,7 +140,7 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'cbj',
   name: 'Central Bank of Jordan',
-  rate_date: '2026-10-12',
+  rate_date: '2026-10-13',
   rates: [
     { "base": "USD", "quote": "JOD", "type": "sell", "value": 0.71 },
     { "base": "USD", "quote": "JOD", "type": "buy", "value": 0.708 },
@@ -183,7 +183,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'cbj-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'JOD', from: '2026-01-01', to: '2026-10-12' },
+  { source: 'USD', target: 'JOD', from: '2026-01-01', to: '2026-10-13' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -196,11 +196,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'JOD',
   from: '2026-01-01',
-  to: '2026-10-12',
+  to: '2026-10-13',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-12', rate: 0.71, rate_type: 'sell', derived: false, method: 'published' },
+    { date: '2026-10-13', rate: 0.71, rate_type: 'sell', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -319,9 +319,9 @@ getRate('USD', 'JOD', { apiKey: 'art_live_...' }).then((pair) => console.log(pai
 
 Need the whole archive rather than an API call? The same published tables are mirrored daily as open data:
 
-- Hugging Face: [AllRates/central-bank-exchange-rates](https://huggingface.co/datasets/AllRates/central-bank-exchange-rates) — one CSV per institution (`rates/cbj.csv`)
+- Hugging Face: [AllRatesToday/central-bank-exchange-rates](https://huggingface.co/datasets/AllRatesToday/central-bank-exchange-rates) — one CSV per institution (`rates/cbj.csv`)
 - Kaggle: [allratestoday/central-bank-exchange-rates](https://www.kaggle.com/datasets/allratestoday/central-bank-exchange-rates)
-- CDN JSON: `https://cdn.jsdelivr.net/gh/AllRates-Today/central-bank-exchange-rates@main/data/cbj/latest.json`
+- Raw JSON on GitHub: `https://raw.githubusercontent.com/AllRates-Today/central-bank-exchange-rates/main/data/cbj/latest.json`
 
 ## 🔗 Links
 
