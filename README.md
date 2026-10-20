@@ -20,6 +20,10 @@
 
 > **Official rate, not mid-market:** every value here is a number Central Bank of Jordan itself published, fixed once printed and carrying the central bank's own `rate_date` — what filings and audits require. Need the live mid-market rate for pricing or display instead? Use the [mid-market API](https://allratestoday.com/docs/) or [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk). The two can diverge by several percent.
 
+## 🔑 Get your API key
+
+Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
+
 ## ⚡ Try it without a key
 
 The latest Central Bank of Jordan table is also served keyless, CORS-open and edge-cached, for evaluation, embeds and AI agents:
@@ -43,18 +47,18 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-19 by Central Bank of Jordan — 10 rates. Updated 2026-10-19.</summary>
+<summary>Table as text: published 2026-10-20 by Central Bank of Jordan — 10 rates. Updated 2026-10-20.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| CHF | JOD | buy | 0.85777 |
-| CHF | JOD | sell | 0.86291 |
-| EUR | JOD | buy | 0.79154 |
-| EUR | JOD | sell | 0.79761 |
-| GBP | JOD | buy | 0.94192 |
-| GBP | JOD | sell | 0.94721 |
-| JPY | JOD | buy | 0.0044734 |
-| JPY | JOD | sell | 0.0045028 |
+| CHF | JOD | buy | 0.856 |
+| CHF | JOD | sell | 0.86217 |
+| EUR | JOD | buy | 0.79324 |
+| EUR | JOD | sell | 0.79769 |
+| GBP | JOD | buy | 0.94136 |
+| GBP | JOD | sell | 0.94842 |
+| JPY | JOD | buy | 0.0044643 |
+| JPY | JOD | sell | 0.0044931 |
 | USD | JOD | buy | 0.708 |
 | USD | JOD | sell | 0.71 |
 
@@ -62,10 +66,6 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 Source: [Official rates published by CBJ, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbj/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
-
-## 🔑 Get your API key
-
-Get a free API key at [allratestoday.com/register](https://allratestoday.com/register) — no credit card required. Latest rates are on every plan, including free.
 
 ## 📦 Installation
 
