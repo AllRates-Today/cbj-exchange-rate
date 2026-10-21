@@ -37,7 +37,7 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/cbj').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and is free to use with a visible, followable link where the rates are shown: `<a href="https://allratestoday.com">Exchange rates by AllRatesToday</a>` (terms: <https://allratestoday.com/terms/#attribution>). The client below uses the keyed API, which adds point-in-time tables and history; with a key the link is appreciated, not required.
 
 ## 📈 Latest published table
 
@@ -47,18 +47,18 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-20 by Central Bank of Jordan — 10 rates. Updated 2026-10-20.</summary>
+<summary>Table as text: published 2026-10-21 by Central Bank of Jordan — 10 rates. Updated 2026-10-21.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| CHF | JOD | buy | 0.856 |
-| CHF | JOD | sell | 0.86217 |
-| EUR | JOD | buy | 0.79324 |
-| EUR | JOD | sell | 0.79769 |
-| GBP | JOD | buy | 0.94136 |
-| GBP | JOD | sell | 0.94842 |
-| JPY | JOD | buy | 0.0044643 |
-| JPY | JOD | sell | 0.0044931 |
+| CHF | JOD | buy | 0.85683 |
+| CHF | JOD | sell | 0.86186 |
+| EUR | JOD | buy | 0.79374 |
+| EUR | JOD | sell | 0.7979 |
+| GBP | JOD | buy | 0.94596 |
+| GBP | JOD | sell | 0.95147 |
+| JPY | JOD | buy | 0.00447 |
+| JPY | JOD | sell | 0.0044977 |
 | USD | JOD | buy | 0.708 |
 | USD | JOD | sell | 0.71 |
 
