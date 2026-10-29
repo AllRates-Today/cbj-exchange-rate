@@ -47,18 +47,18 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Central Bank of Jordan — 10 rates. Updated 2026-10-29.</summary>
+<summary>Table as text: published 2026-10-29 by Central Bank of Jordan — 10 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| CHF | JOD | buy | 0.85168 |
-| CHF | JOD | sell | 0.85749 |
-| EUR | JOD | buy | 0.78666 |
-| EUR | JOD | sell | 0.79037 |
-| GBP | JOD | buy | 0.93945 |
-| GBP | JOD | sell | 0.94515 |
-| JPY | JOD | buy | 0.0044799 |
-| JPY | JOD | sell | 0.0045042 |
+| CHF | JOD | buy | 0.85332 |
+| CHF | JOD | sell | 0.85863 |
+| EUR | JOD | buy | 0.78758 |
+| EUR | JOD | sell | 0.79243 |
+| GBP | JOD | buy | 0.94114 |
+| GBP | JOD | sell | 0.94686 |
+| JPY | JOD | buy | 0.0044793 |
+| JPY | JOD | sell | 0.0045056 |
 | USD | JOD | buy | 0.708 |
 | USD | JOD | sell | 0.71 |
 
