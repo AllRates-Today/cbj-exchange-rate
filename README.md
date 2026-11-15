@@ -31,25 +31,7 @@ Get a free API key at [allratestoday.com/register](https://allratestoday.com/reg
 The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-<details>
-<summary>Table as text: published 2026-11-15 by Central Bank of Jordan — 10 rates. Updated 2026-11-15.</summary>
-
-| Base | Quote | Type | Rate |
-| --- | --- | --- | ---: |
-| CHF | JOD | buy | 0.84316 |
-| CHF | JOD | sell | 0.85081 |
-| EUR | JOD | buy | 0.78022 |
-| EUR | JOD | sell | 0.78618 |
-| GBP | JOD | buy | 0.93491 |
-| GBP | JOD | sell | 0.94082 |
-| JPY | JOD | buy | 0.0044198 |
-| JPY | JOD | sell | 0.0044509 |
-| USD | JOD | buy | 0.708 |
-| USD | JOD | sell | 0.71 |
-
-</details>
-
-Source: [Official rates published by CBJ, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/cbj/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+_The table is filled in by the daily workflow._
 <!-- daily-table:end -->
 
 ## 📦 Installation
